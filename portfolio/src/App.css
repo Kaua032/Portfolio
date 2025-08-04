@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #F8FBFF, #F0F6FE);
+}
+
+/* Header */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px 30px 70px;
+    background-color: #fff;
+}
+header h1{
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #5F6673;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+header nav a{
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #5F6673;
+    text-decoration: none;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header div #whatsapp, header div #linkedin, header div #github{
+    width: 20px;
+    height: 20px;
+}
+header div #whatsapp{
+    background-image: url("./assets/whatsapp.svg");
+}
+header div #linkedin{
+    background-image: url("./assets/linkedin.svg");
+}
+header div #github{
+    background-image: url("./assets/github.svg");
+}
+header div form select{
+    border: #5F6673 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+/* Inicio */
+#inicio #inicio_1{
+    display: flex;
+    padding: 50px 70px 50px 70px;
+    font-family: Roboto;
+}
+#inicio #inicio_1 #inicio_text{
+    display: flex;
+    flex-direction: column;
+}
+#inicio #inicio_1 #inicio_text #ola{
+    font-size: 32px;
+    font-weight: 300;
+    color: #212226;
+}
+#inicio #inicio_1 #inicio_text #nome{
+    font-size: 48px;
+    font-weight: bold;
+    color: #212226;
+    margin-top: 15px;
+}
+#inicio #inicio_1 #inicio_text #texto{
+     font-size: 20px;
+    font-weight: 300;
+    color: #5F6673;
+    margin-top: 45px;
+}
+#inicio #inicio_1 #inicio_text a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: #00ACC1;
+    padding: 10px 25px;
+    border-radius: 100px;
+    margin-top: 55px;
+    align-self: flex-start;
+}
+
+/* Carrossel com Stacks */
+#inicio #carrossel{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    gap: 50px;
+    background-color: #fff;
+    padding: 40px 70px;
+
+    scrollbar-color: #e0e0e0 transparent;
+    scrollbar-width: thin; 
+    -ms-overflow-style: none; 
+}
+
+#carrossel::-webkit-scrollbar-button {
+  display: none; 
+}
