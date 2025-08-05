@@ -1,4 +1,4 @@
-import { CardArea } from "./cardStyled";
+import { CardArea } from "./CardStyled";
 
 function Card({...props}){
     return(
