@@ -202,3 +202,16 @@ header div form select{
 
     margin-top: 50px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 220px 0 50px 0;
+
+    background-color: #293233;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}

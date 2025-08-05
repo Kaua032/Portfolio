@@ -84,9 +84,12 @@ function App() {
 
           <Project link="" url="Quita do ypuã.png" title="Quinta do Ypuã" text="Um software dividido em duas partes. A primeira era a da pousada, onde mantinha o controle dos quarto reservados, livres e ocupados. A segunda já era do lado do cliente, onde poderia escolher os quartos  e efetuar suas reservas." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "HandlebarsMini.png", "BootstrapMini.png", "SequelizeMini.png"]}/>
 
-          <Project link="" url="JovemTrabalhador.png" title="Jovem Trabalhador" text="Desenvolvi um sistema de frequência para uma Associação, permitindo o registro de alunos, professores e chamadas. Ele ajuda os professores a monitorar a média de faltas diárias e mensais, contribuindo para a gestão eficiente." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
+          <Project link="" url="JovemTrabalhador.png" title="Jovem Trabalhador" text="O sistema consiste em uma base de dados de alunos provenientes de diversas escolas e instituições. É um software que funciona offline, permitindo que o cliente colete dados em escolas mais isoladas e com menor infraestrutura." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
         </div>
       </section>
+      <footer>
+        <p>© 2025 - Kauã Xavier - Todos os direitos reservados</p>
+      </footer>
     </>
   );
 }

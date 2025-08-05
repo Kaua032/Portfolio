@@ -39,6 +39,10 @@ export const AreaProject = styled.div`
         margin-top: 10px;
     }
     .stacks{
-        
+        align-self: flex-end;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 40px;
     }
 `
