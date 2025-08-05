@@ -65,7 +65,7 @@ function App() {
               <p><strong>Telefone:</strong> (82) 987424440</p>   
               <p><strong>Gmail:</strong> kauaxavier032@gmail.com</p>           
             </div>
-            <a href="">Download CV</a>
+            <a href="Kaua-De-Araujo-Xavier.pdf" download >Download CV</a>
           </div>
         </div>
         <div id="sobre_2">
