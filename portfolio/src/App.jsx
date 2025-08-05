@@ -10,7 +10,7 @@ function App() {
         <nav>
           <a href="#inicio">Inicio</a>
           <a href="#sobre">Sobre</a>
-          <a href="projetos">Projetos</a>
+          <a href="#projetos">Projetos</a>
         </nav>
         <div>
           <a href="https://wa.me/82987424440" id="whatsapp" target="blank"></a>
@@ -80,11 +80,11 @@ function App() {
       <section id="projetos">
         <h2>Projetos</h2>
         <div id="projetos_area">
-          <Project link="" url="VidaAtiva.png" title="Vida Ativa" text="Desenvolvi um sistema de frequência para uma Associação, permitindo o registro de alunos, professores e chamadas. Ele ajuda os professores a monitorar a média de faltas diárias e mensais, contribuindo para a gestão eficiente." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
+          <Project link="https://github.com/Kaua032/Vida_Ativa_API" url="VidaAtiva.png" title="Vida Ativa" text="Desenvolvi um sistema de frequência para uma Associação, permitindo o registro de alunos, professores e chamadas. Ele ajuda os professores a monitorar a média de faltas diárias e mensais, contribuindo para a gestão eficiente." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
 
-          <Project link="" url="Quita do ypuã.png" title="Quinta do Ypuã" text="Um software dividido em duas partes. A primeira era a da pousada, onde mantinha o controle dos quarto reservados, livres e ocupados. A segunda já era do lado do cliente, onde poderia escolher os quartos  e efetuar suas reservas." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "HandlebarsMini.png", "BootstrapMini.png", "SequelizeMini.png"]}/>
+          <Project link="https://github.com/Kaua032/QDP-API" url="Quita do ypuã.png" title="Quinta do Ypuã" text="Um software dividido em duas partes. A primeira era a da pousada, onde mantinha o controle dos quarto reservados, livres e ocupados. A segunda já era do lado do cliente, onde poderia escolher os quartos  e efetuar suas reservas." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "HandlebarsMini.png", "BootstrapMini.png", "SequelizeMini.png"]}/>
 
-          <Project link="" url="JovemTrabalhador.png" title="Jovem Trabalhador" text="O sistema consiste em uma base de dados de alunos provenientes de diversas escolas e instituições. É um software que funciona offline, permitindo que o cliente colete dados em escolas mais isoladas e com menor infraestrutura." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
+          <Project link="https://github.com/Kaua032/Jovem_Trabalhador_API" url="JovemTrabalhador.png" title="Jovem Trabalhador" text="O sistema consiste em uma base de dados de alunos provenientes de diversas escolas e instituições. É um software que funciona offline, permitindo que o cliente colete dados em escolas mais isoladas e com menor infraestrutura." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
         </div>
       </section>
       <footer>

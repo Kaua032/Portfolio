@@ -5,8 +5,8 @@ function Project({ ...props }) {
   return (
     <AreaProject>
       <div className="imgArea">
-        <a className="githubProject" href={props.link}>
-          <img src="link.png" alt="" />
+        <a className="githubProject" href={props.link} target="blank">
+          <img src="link.png" alt=""/>
         </a>
         <img className="background" src={props.url} alt="" />
       </div>

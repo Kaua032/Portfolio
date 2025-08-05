@@ -13,6 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 30px 70px 30px 70px;
     background-color: #fff;
 }
@@ -24,7 +25,9 @@ header h1{
 }
 header nav{
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 header nav a{
@@ -61,6 +64,7 @@ header div form select{
 /* Inicio */
 #inicio #inicio_1{
     display: flex;
+    justify-content: center;
     padding: 50px 70px 50px 70px;
     font-family: Roboto;
 }
@@ -84,6 +88,7 @@ header div form select{
     font-weight: 300;
     color: #5F6673;
     margin-top: 45px;
+    max-width: 700px;
 }
 #inicio #inicio_1 #inicio_text a{
     font-size: 20px;
@@ -93,7 +98,7 @@ header div form select{
     background-color: #00ACC1;
     padding: 10px 25px;
     border-radius: 100px;
-    margin-top: 55px;
+    margin-top: 40px;
     align-self: flex-start;
 }
 
@@ -118,11 +123,14 @@ header div form select{
 }
 #sobre #sobre_1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 60px;
     padding: 150px 70px;
 }
-
+#sobre #sobre_1 div img{
+    width: 500px;
+    height: 500px;
+}
 #sobre #sobre_1 #sobreMim{
     display: flex;
     flex-direction: column;
@@ -141,6 +149,7 @@ header div form select{
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
+    max-width: 600px;
 }
 #sobre #sobre_1 #sobreMim #info{
     display: flex;
@@ -181,7 +190,8 @@ header div form select{
 }
 #sobre #sobre_2 #sobre_area{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 #projetos{
@@ -198,8 +208,9 @@ header div form select{
 }
 #projetos #projetos_area{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
-
     margin-top: 50px;
 }
 
@@ -214,4 +225,48 @@ footer{
     font-size: 20px;
     font-weight: 500;
     color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 1200px){
+    #sobre #sobre_1{
+        flex-wrap: wrap;
+    }
+    #inicio #inicio_1 div img{
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+    h1{
+        display: none;
+    }
+    header{
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 640px){
+    #sobre #sobre_1 div img{
+        width: 100%;
+        height: auto;
+    }
+    #inicio #inicio_1{
+       padding-left: 35px;
+       padding-right: 35px;
+    }
+    #sobre #sobre_1{
+        padding: 150px 35px;
+    }
+    header nav{
+        gap: 25px;
+    }
+}
+
+@media (min-width: 1740px){
+    #inicio #carrossel{
+        justify-content: center;
+    }
 }
