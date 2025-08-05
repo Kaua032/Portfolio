@@ -50,24 +50,24 @@ function App() {
         </div>
       </section>
       <section id="sobre">
-        <div>
+        <div id="sobre_1">
           <div>
             <img src="./sobrePerfil.png" alt="" />
           </div>
-          <div>
-            <h2>Sobre <p>mim</p></h2>
+          <div id="sobreMim">
+            <h2>Sobre <strong>mim</strong></h2>
             <p>Sou uma pessoa proativa, autodidata e resiliente, com facilidade para aprender de forma prática e resolver problemas de forma criativa. Tenho boa organização e gestão do tempo, conciliando faculdade, curso técnico e projetos pessoais com consistência. Gosto de colaborar em equipe, busco sempre melhorar processos e estou em constante evolução pessoal e profissional.</p>
             <div id="info">
-              <p><p>Nome:</p> Kauã de Araújo Xavier</p>
-              <p><p>Idade:</p> 20</p>
-              <p><p>Telefone:</p> (82) 987424440</p>   
-              <p><p>Gmail:</p> kauaxavier032@gmail.com</p>           
+              <p><strong>Nome:</strong> Kauã de Araújo Xavier</p>
+              <p><strong>Idade:</strong> 20</p>
+              <p><strong>Telefone:</strong> (82) 987424440</p>   
+              <p><strong>Gmail:</strong> kauaxavier032@gmail.com</p>           
             </div>
             <a href="">Download CV</a>
           </div>
         </div>
         <div>
-
+          <h2>O que eu faço?</h2>
         </div>
       </section>
     </>
