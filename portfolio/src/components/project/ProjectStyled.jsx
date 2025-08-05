@@ -6,6 +6,8 @@ export const AreaProject = styled.div`
     background-color: #fff;
     border-radius: 10px;
     padding: 20px 15px 15px 15px;
+
+    box-shadow: 0 6px 12px rgb(50, 50, 93, 0.25);
     .imgArea{
         display: flex;
         flex-direction: column;
