@@ -1,4 +1,5 @@
 import "./App.css";
+import Card from "./components/card/card";
 
 function App() {
   return (
@@ -66,8 +67,19 @@ function App() {
             <a href="">Download CV</a>
           </div>
         </div>
-        <div>
+        <div id="sobre_2">
           <h2>O que eu faço?</h2>
+          <div id="sobre_area">
+            <Card url="design-de-ux.png" title="UI/UX" text="Desenvolvimento de todo o design da sua aplicação."/>
+            <Card url="desenvolvimento-web.png" title="Desenvolvimento" text="Faço todo o desenvolvimento do seu Web Site ou App."/>
+            <Card url="cloud-rain.png" title="Branding" text="Reuniões para acrescentar ideias e saber se o desenvolvimento está de acordo com o que deseja."/>
+          </div>
+        </div>
+      </section>
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <div id="projetos_area">
+
         </div>
       </section>
     </>
