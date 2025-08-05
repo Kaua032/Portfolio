@@ -80,7 +80,11 @@ function App() {
       <section id="projetos">
         <h2>Projetos</h2>
         <div id="projetos_area">
-          <Project link="" url="" title="Vida Ativa" text="Desenvolvi um sistema de frequência para uma Associação, permitindo o registro de alunos, professores e chamadas. Ele ajuda os professores a monitorar a média de faltas diárias e mensais, contribuindo para a gestão eficiente." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
+          <Project link="" url="VidaAtiva.png" title="Vida Ativa" text="Desenvolvi um sistema de frequência para uma Associação, permitindo o registro de alunos, professores e chamadas. Ele ajuda os professores a monitorar a média de faltas diárias e mensais, contribuindo para a gestão eficiente." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
+
+          <Project link="" url="Quita do ypuã.png" title="Quinta do Ypuã" text="Um software dividido em duas partes. A primeira era a da pousada, onde mantinha o controle dos quarto reservados, livres e ocupados. A segunda já era do lado do cliente, onde poderia escolher os quartos  e efetuar suas reservas." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "HandlebarsMini.png", "BootstrapMini.png", "SequelizeMini.png"]}/>
+
+          <Project link="" url="JovemTrabalhador.png" title="Jovem Trabalhador" text="Desenvolvi um sistema de frequência para uma Associação, permitindo o registro de alunos, professores e chamadas. Ele ajuda os professores a monitorar a média de faltas diárias e mensais, contribuindo para a gestão eficiente." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
         </div>
       </section>
     </>
