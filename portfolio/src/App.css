@@ -186,7 +186,7 @@ header div form select{
 }
 #projetos{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding: 150px 0;
 }
 #projetos h2{

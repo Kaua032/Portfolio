@@ -3,11 +3,11 @@ import { CardArea } from "./cardStyled";
 function Card({...props}){
     return(
         <CardArea>
-            <div id="imgArea">
+            <div class="imgArea">
                 <img src={props.url} alt="" />
             </div>
-            <p id="cardTitle">{props.title}</p>
-            <p id="cardText">{props.text}</p>
+            <p class="cardTitle">{props.title}</p>
+            <p class="cardText">{props.text}</p>
         </CardArea>
     )
 }

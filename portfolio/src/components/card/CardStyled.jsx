@@ -13,18 +13,18 @@ export const CardArea = styled.div`
     padding: 30px 40px 0 40px;
 
     box-shadow: 0 6px 12px rgb(50, 50, 93, 0.25);
-    #imgArea{
+    .imgArea{
         background-color: #00ACC1;
         padding: 25px;
         border-radius: 100%;
     }
-    #cardTitle{
+    .cardTitle{
         font-family: Roboto;
         font-size: 30px;
         font-weight: bold;
         color: #212226;
     }
-    #cardText{
+    .cardText{
         font-family: Roboto;
         font-size: 15px;
         font-weight: 500;

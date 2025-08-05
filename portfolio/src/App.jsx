@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./components/card/card";
+import Project from "./components/project/Project";
 
 function App() {
   return (
@@ -79,7 +80,7 @@ function App() {
       <section id="projetos">
         <h2>Projetos</h2>
         <div id="projetos_area">
-
+          <Project link="" url="" title="Vida Ativa" text="Desenvolvi um sistema de frequência para uma Associação, permitindo o registro de alunos, professores e chamadas. Ele ajuda os professores a monitorar a média de faltas diárias e mensais, contribuindo para a gestão eficiente." />
         </div>
       </section>
     </>
