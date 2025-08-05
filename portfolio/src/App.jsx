@@ -16,12 +16,12 @@ function App() {
           <a href="https://wa.me/82987424440" id="whatsapp" target="blank"></a>
           <a href="https://www.linkedin.com/in/kauaxavier032/" id="linkedin" target="blank"></a>
           <a href="https://github.com/Kaua032" id="github" target="blank"></a>
-          <form>
+          {/* <form>
             <select name="language" id="language">
               <option value="pt-br">Português</option>
               <option value="en">English</option>
             </select>
-          </form>
+          </form> */}
         </div>
       </header>
       <section id="inicio">
