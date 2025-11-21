@@ -51,32 +51,6 @@ function App() {
           <img src="/Handlebars.png" alt="" />
         </div>
       </section>
-      <section id="sobre">
-        <div id="sobre_1">
-          <div>
-            <img src="./sobrePerfil.png" alt="" />
-          </div>
-          <div id="sobreMim">
-            <h2>Sobre <strong>mim</strong></h2>
-            <p>Sou uma pessoa proativa, autodidata e resiliente, com facilidade para aprender de forma prática e resolver problemas de forma criativa. Tenho boa organização e gestão do tempo, conciliando faculdade, curso técnico e projetos pessoais com consistência. Gosto de colaborar em equipe, busco sempre melhorar processos e estou em constante evolução pessoal e profissional.</p>
-            <div id="info">
-              <p><strong>Nome:</strong> Kauã de Araújo Xavier</p>
-              <p><strong>Idade:</strong> 20</p>
-              <p><strong>Telefone:</strong> (82) 987424440</p>   
-              <p><strong>Gmail:</strong> kauaxavier032@gmail.com</p>           
-            </div>
-            <a href="Kaua-De-Araujo-Xavier.pdf" download >Download CV</a>
-          </div>
-        </div>
-        <div id="sobre_2">
-          <h2>O que eu faço?</h2>
-          <div id="sobre_area">
-            <Card url="design-de-ux.png" title="UI/UX" text="Desenvolvimento de todo o design da sua aplicação."/>
-            <Card url="desenvolvimento-web.png" title="Desenvolvimento" text="Faço todo o desenvolvimento do seu Web Site ou App."/>
-            <Card url="cloud-rain.png" title="Branding" text="Reuniões para acrescentar ideias e saber se o desenvolvimento está de acordo com o que deseja."/>
-          </div>
-        </div>
-      </section>
       <section id="projetos">
         <h2>Projetos</h2>
         <div id="projetos_area">
@@ -86,6 +60,9 @@ function App() {
 
           <Project link="https://github.com/Kaua032/Jovem_Trabalhador_API" url="JovemTrabalhador.png" title="Jovem Trabalhador" text="O sistema consiste em uma base de dados de alunos provenientes de diversas escolas e instituições. É um software que funciona offline, permitindo que o cliente colete dados em escolas mais isoladas e com menor infraestrutura." stacks={["NodejsMini.png", "ExpressMini.png", "JavaScriptMini.png", "ReactMini.png", "BootstrapMini.png", "MongoDBMini.png"]}/>
         </div>
+      </section>
+      <section id="sobre">
+        
       </section>
       <footer>
         <p>© 2025 - Kauã Xavier - Todos os direitos reservados</p>
