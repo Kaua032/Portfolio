@@ -11,7 +11,7 @@ function App() {
         <nav>
           <a href="#inicio">Inicio</a>
           <a href="#projetos">Projetos</a>
-          <a href="#premiacoes">Premiações</a>
+          {/* <a href="#premiacoes">Premiações</a> */}
         </nav>
         <div>
           <a href="https://wa.me/82987424440" id="whatsapp" target="blank"></a>
